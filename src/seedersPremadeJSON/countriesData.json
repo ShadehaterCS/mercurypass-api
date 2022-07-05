@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Greece",
+        "abbreviation": "gr",
+        "image": "https://i.imgur.com/Y4lJCpK.jpg",
+        "cities": "Athens, Thessaloniki, Ioannina",
+        "repeat": 0.5,
+        "weekly": 10,
+        "semester": 60
+    },
+    {
+        "name": "Austria",
+        "abbreviation": "at",
+        "image": "https://i.imgur.com/iwqZUbV.jpg",
+        "cities": "Vienna, Salzburg",
+        "repeat": 2,
+        "weekly": 17,
+        "semester": 75
+    },
+    {
+        "name": "France",
+        "abbreviation": "fr",
+        "image": "https://i.imgur.com/ABUMy2d.jpg",
+        "cities": "Paris, Marseile, Lyon",
+        "repeat": 1.8,
+        "weekly": 12,
+        "semester": 65
+    },
+    {
+        "name": "Germany",
+        "abbreviation": "de",
+        "image": "https://i.imgur.com/LT1EqQW.jpg",
+        "cities": "Berlin, Hamburg, Munich, Cologne, Düsseldorf",
+        "repeat": 1,
+        "weekly": 15,
+        "semester": 90
+    },
+    {
+        "name": "Spain",
+        "abbreviation": "es",
+        "image": "https://i.imgur.com/GQ5tE9U.jpg",
+        "cities": "Madrid, Barcelona",
+        "repeat": 0.75,
+        "weekly": 14,
+        "semester": 100
+    }
+]
