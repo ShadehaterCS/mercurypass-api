@@ -9,11 +9,7 @@ import { Country, UserPass, Message } from './entities/exports'
 
 // import firebase-admin package
 export const admin = require('firebase-admin');
-// import service account file (helps to know the firebase project details)
-// const serviceAccount = require("./serviceAccountKey.json");
-
-//TODO move this to separate file and .gitignore it
-import serviceAccount from "./serviceAccountKey.json";
+const serviceAccount = require("./serviceAccountKey.json");
 
 // Intialize the firebase-admin project/account
 export const firebase = admin.initializeApp({
