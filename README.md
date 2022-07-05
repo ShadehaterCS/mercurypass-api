@@ -18,6 +18,7 @@ Using Firebase Authentication
 * Site hosted through Firebase Hosting
 
 # Routes
+In order to use the routes you need to be logged in. When logged in you are given a session token through Firebase Auth that is sent with every request
 | Method | Route                     |
 |--------|---------------------------|
 | GET    | /api/passes/user/         |
