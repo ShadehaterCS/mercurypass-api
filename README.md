@@ -10,7 +10,6 @@ Using Firebase Authentication
 * Koa Framework
 * MikroORM
 * Firebase Authentication
-* Docker
 
 # Hosting
 * API Hosted on Heroku
