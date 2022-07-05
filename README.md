@@ -33,4 +33,28 @@ In order to use the routes you need to be logged in. When logged in you are give
 | POST   | /api/admin/country/new   |
 | GET    | /api/admin/stats         |
 
+# Security and ENV Variables
+MIKRO_ORM_TYPE = mariadb  
+MIKRO_ORM_ALLOW_GLOBAL_CONTEXT = true  
+
+DBNAME =   
+MIKRO_ORM_HOST =   
+PASSWORD =   
+USER =   
+
+SEED = FALSE  
+ADMINTOKEN =  
+
+FIREBASE_TYPE =   
+FIREBASE_PROJECT_ID =   
+FIREBASE_KEY_ID =   
+FIREBASE_PRIVATE_KEY = '{"privateKey": "-----BEGIN PRIVATE KEY----- -----END PRIVATE KEY-----\n"}'  
+FIREBASE_CLIENT_EMAIL =   
+FIREBASE_CLIENT_ID =   
+FIREBASE_AUTH_URI =   
+FIREBASE_TOKEN_URI =   
+FIREBASE_AUTH_PROVIDER_X509_CERT_URL =   
+FIREBASE_CLIENT_X509_CERT_URL =   
+
+
 
