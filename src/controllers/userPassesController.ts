@@ -71,7 +71,7 @@ router.get('/:passId', async (ctx) => {
                 }
             }
             else {
-                ctx.throw(404, 'Pass not found');
+                ctx.throw(404);
             }
         }
         else {
@@ -80,7 +80,7 @@ router.get('/:passId', async (ctx) => {
 
     }
     catch (err) {
-        console.log(err)
+        ctx.throw(501)
     }
 })
 

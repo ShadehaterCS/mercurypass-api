@@ -16,8 +16,7 @@ router.post('/new', async (ctx) => {
             const newMessage = new Message(userEmail, userMessage)
             DI.em.persistAndFlush(newMessage)
         }
-
-        ctx.body = 'Message submitted successfully'
+        ctx.status = 200;
     } catch (error) {
         ctx
     }
@@ -36,7 +35,7 @@ router.get('/', async (ctx) => {
             ctx.body = messages;
         }
     } catch (error) {
-
+        ctx.throw(401)
     }
 })
 export const MessagesController = router

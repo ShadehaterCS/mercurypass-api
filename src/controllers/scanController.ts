@@ -40,12 +40,12 @@ router.post('/:passId', async (ctx) => {
             ctx.body = 'Pass scanned successfully'
         }
         else {
-            ctx.body = 'Pass is not active thus not scannable'
+            ctx.throw(404)
             return
         }
 
     } catch (error) {
-        ctx.body = 'Error occured: ' + error;
+        ctx.throw(501, error)
     }
 })
 
