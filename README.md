@@ -5,6 +5,14 @@ A Node API for mercurypass-eu.com using Koa, MikroORM with MariaDB and Firebase
 API to support CRUD operations for [mercury-eu.web.app](https://mercury-eu.web.app)  
 Using Firebase Authentication
 
+<p style="display:flex;>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png" style="width:100px;height:auto" />
+<img src="https://brandslogo.net/wp-content/uploads/2015/09/nodejs-logo-vector-download.jpg" style="width:100px;height:auto" />
+<img src="https://raw.githubusercontent.com/github/explore/087f23463641d25ee971402fa26e3dfb2855edb9/topics/koa/koa.png" style="width:100px;height:auto" />
+<img src="https://mikro-orm.io/img/logo.svg" style="width:200px;height:auto" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/1280px-Firebase_Logo.svg.png" style="width:200px;height:auto" />
+</p>
+
 # Technologies
 * Node
 * Koa Framework
